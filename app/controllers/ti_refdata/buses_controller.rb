@@ -1,9 +1,9 @@
 module TiRefdata
 
-  class AirportsController < PorsController
+  class BusesController < PorsController
 
     def por_model_class
-      Airport
+      Bus
     end
 
   end

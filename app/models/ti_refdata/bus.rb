@@ -1,6 +1,6 @@
 module TiRefdata
 
-  class Airport < ActiveRecord::Base
+  class Bus < ActiveRecord::Base
     include Por
   end
 

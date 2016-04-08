@@ -31,7 +31,7 @@ describe TiRefdata::Airline do
     Fabricate(:dummy_airline)
     Fabricate(:gds)
     Fabricate(:cargo_airline)
-    Fabricate(:railway)
+    Fabricate(:rail_way)
 
     expect(TiRefdata::Airline.regular_airline).to eq([a1,a2])
   end

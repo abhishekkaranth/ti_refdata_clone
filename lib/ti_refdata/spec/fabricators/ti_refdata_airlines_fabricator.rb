@@ -60,7 +60,7 @@ Fabricator(:cargo_airline, class_name: TiRefdata::Airline) do
   page_rank 0.1
 end
 
-Fabricator(:railway, class_name: TiRefdata::Airline) do
+Fabricator(:rail_way, class_name: TiRefdata::Airline) do
   unified_code 'trn-sncf'
   name 'SNCF'
   icao_code '0'

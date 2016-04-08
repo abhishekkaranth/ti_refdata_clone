@@ -1,6 +1,6 @@
 module TiRefdata
 
-  class Airport < ActiveRecord::Base
+  class Heliport < ActiveRecord::Base
     include Por
   end
 
