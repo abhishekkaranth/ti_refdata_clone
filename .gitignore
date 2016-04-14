@@ -1,11 +1,11 @@
 /.bundle
 /vendor/bundle/
 /bin
-/spec/test_app/log/*.log
-/spec/test_app/db/schema.rb
-/spec/test_app/db/*.sqlite3
-/spec/test_app/db/migrate/*.ti_refdata.rb
-/spec/test_app/tmp
+/spec/test_app_3/log/*.log
+/spec/test_app_3/db/schema.rb
+/spec/test_app_3/db/*.sqlite3
+/spec/test_app_3/db/migrate/*.ti_refdata.rb
+/spec/test_app_3/tmp
 .ruby-version
 Gemfile.lock
 

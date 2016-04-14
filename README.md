@@ -2,10 +2,10 @@
 
 ## Installation
 
+    cd spec/test_app_3
     bundle install
-    cd spec/test_app
-    ../../bin/rake ti_refdata:install:migrations
-    ../../bin/rake db:migrate
-    RAILS_ENV=test ../../bin/rake db:setup
+    bundle exec rake ti_refdata:install:migrations
+    bundle exec rake db:migrate
+    RAILS_ENV=test bundle exec rake db:setup
     cd ../..
-    ./bin/rspec
+    BUNDLE_GEMFILE=spec/test_app_3/Gemfile bundle exec rspec

@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+
+gem 'rails', '~> 3.2.17'
+
+gem 'rails-api'
+gem 'active_model_serializers', '~> 0.7.0'
+gem 'ti_rails_auth', git: 'http://github.com/ebastien/ti_rails_auth'
+
+group :test do
+  gem 'sqlite3'
+  gem 'rspec-rails'
+  gem 'rspec-collection_matchers'
+  gem 'fabrication'
+  gem 'jsonpath'
+  gem 'pry-byebug', require: 'pry'
+end

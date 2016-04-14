@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 gem 'ti_rails_auth', git: 'http://github.com/ebastien/ti_rails_auth'
 
